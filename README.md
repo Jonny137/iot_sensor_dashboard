@@ -1,4 +1,16 @@
 ## IoT Dashboard
+<img src="https://www.iconninja.com/files/332/243/605/react-js-react-logo-js-icon.png"
+     alt="Markdown React icon"
+     height="50px"
+/>&nbsp;&nbsp;&nbsp;
+<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+     alt="Markdown Node icon"
+     height="50px"
+/>&nbsp;&nbsp;
+<img src="https://cdn.iconscout.com/icon/free/png-256/heroku-5-569467.png"
+     alt="Markdown Heroku icon"
+     height="50px"
+/>
 
 ### Introduction
 
