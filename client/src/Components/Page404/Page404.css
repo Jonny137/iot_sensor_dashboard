@@ -1,0 +1,101 @@
+.home-link {
+    text-decoration: none;
+}
+
+/* Adjust the margin to the half of width/height of the div to keep it centerd always */
+.page404-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -250px;
+    border: solid 1px #393e46;
+    border-radius: 5px;
+    background-color: #393e46;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-line-text {
+    display: flex;
+    width: 180px;
+    height: 20px;
+    flex-direction: row;
+    padding-right: 6rem;
+    margin: none;
+    font-size: 20px;
+}
+
+.page404-title-a {
+    font-size: 100px;
+    color:  #FFD68A;
+}
+
+.page404-title-b {
+    font-size: 100px;
+    color: #CFD7E6;
+}
+
+.second-line-text {
+    width: 300px;
+    height: 20px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.second-line-a {
+    color: #FF7A85;
+    margin-right: 10px;
+}
+
+.second-line-b {
+    color: #CFD7E6;
+}
+
+.second-line-c {
+    color: #B5E890;
+    margin-left: 10px;
+}
+
+.third-line-text {
+    width: 180px;
+    height: 20px;
+    padding-right: 6rem;
+    margin-bottom: 200px;
+    font-size: 20px;
+}
+
+.third-line {
+    color: #CFD7E6;
+}
+
+.home-button {
+    margin-top: 40px
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.first-line-a {
+    color: #69BBFF;
+    font-weight: bold;
+}
+
+.first-line-b {
+    color: #CFD7E6;
+    font-weight: bold;
+}
+
+.home-button {
+    color: #CFD7E6;
+}

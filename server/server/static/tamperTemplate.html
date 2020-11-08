@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: 'Roboto', sans-serif;">
+	<div style="background-color: #3c4b64;
+				width: fit-content;
+				padding: 10px 10px 10px 10px;
+				border: 1px solid #3c4b64;
+				border-radius: 10px;
+				color: white;
+				display: flex;
+				flex-direction: column;"
+	>
+		<h2 class="alarm-title">Connected Sensor Alarm</h2>
+		<table>
+			<tr>
+				<td class="alarm-label">Device Name:</td>
+				<td class="alarm-value">{{name}}</td>
+			</tr>
+			<tr>
+				<td class="alarm-label">Timestamp:</td>
+				<td class="alarm-value">{{time}}</td>
+			</tr>
+			<tr>
+				<td class="alarm-label">Cell ID:</td>
+				<td class="alarm-value">{{CID}}</td>
+			</tr>
+		</table>
+		<p style="background-color: white;
+			border: 1px solid white;
+			border-radius: 5px;
+			padding: 2px;
+			color: rgba(255,0,0, 0.7);
+			font-weight: bold;
+			width:fit-content;"
+		>
+			Device has been tampered!	
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+.MuiCardActionArea-root {
+    height: 100%;
+}
+
+.MuiCardContent-root {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 24px 16px !important;
+    min-height: 150px;
+}
+
+.ui-card {
+    min-width: 275px;
+    cursor: pointer;
+}
+
+.ui-card:hover {
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+}
+
+.ui-card__title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #999;
+}
+
+.ui-card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ui-card__icon {
+    font-size: 40px;
+    color: #42b883;
+}
+
+.ui-card__info {
+    color: #333333 !important;
+    font-weight: bold !important;
+}
+
+[class*="icon-colored"] {
+    color: rgba(255,0,0, 0.7);
+    font-size: 40px;
+}
+
+[class*="title-colored"] {
+    color: rgba(255,0,0, 0.7);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+[class*="info-colored"] {
+    color: rgba(255,0,0, 0.7);
+    font-weight: bold !important;
+}
+
+[class*="pulse"] {
+    min-width: 275px;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(255,0,0, 0.7);
+	}
+	70% {
+		box-shadow: 0 0 0 7px rgba(255,0,0, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(255,0,0, 0);
+	}
+}

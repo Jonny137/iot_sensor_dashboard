@@ -1,0 +1,63 @@
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+:root {
+    --x-color: rgba(0,0,0,0.2);
+    --y-color: rgba(0,0,0,0.14);
+    --spread-color: rgba(0,0,0,0.12);
+}
+
+.MuiSwitch-colorPrimary.Mui-checked {
+    color: #3c4b64 !important;
+}
+
+.threshold-modal__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.threshold-modal__content {
+    min-width: fit-content;
+    background-color: white;
+    box-shadow: 0px 3px 5px -1px var(--x-color), 
+                0px 5px 8px 0px var(--y-color), 
+                0px 1px 14px 0px var(--spread-color);
+    padding: 2.5rem;
+    border-radius: 10px;
+    max-width: 50%;
+}
+
+.threshold-modal__content:focus {
+    outline: none;
+}
+
+.threshold-modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.threshold-modal__form-control {
+    margin-bottom: 1rem !important;
+    width: 14rem;
+}
+
+.threshold-modal__submit {
+    background-color: #3c4b64  !important;
+    color: white !important;
+    margin-top: 1rem !important;
+    width: 7rem;
+}
+
+.threshold-edit {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.threshold-max-input {
+    margin-left: 10px !important;
+}
+
+.threshold-max-label {
+    margin-left: 10px !important;
+}

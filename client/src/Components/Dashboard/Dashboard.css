@@ -1,0 +1,174 @@
+.MuiCircularProgress-root {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+
+.appBar {
+    background-color: white !important;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.drawer {
+    width: 240px;
+    position: sticky;
+    z-index: 2;
+}
+
+.drawerPaper {
+    width: 240px;
+    padding: 5px 10px;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #e7ebea;
+    padding: 88px 24px 24px 24px;
+    min-height: 100vh;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 24% 24% 24% auto;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.title-header {
+    background-color: white;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+    background-color: #3c4b64 !important;
+}
+
+.MuiListSubheader-root {
+    color: white !important;
+    opacity: 0.5;
+}
+
+.list-items {
+    color: white;
+    margin-top: 64px !important;
+    font-size: 16px;
+}
+
+.MuiListItemIcon-root {
+    min-width: 25px !important;
+}
+
+.list-item-icon {
+    width: 14x;
+    height: 14px;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.no-devices-text {
+    font-size: 400%;
+    width: 800px;
+    height: 60px;
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    margin: -30px 0 0 -400px;
+    color: #bbbbbb;
+}
+
+.threshold-button {
+    margin-right: 12px !important;
+    color: #333333;
+}
+
+.threshold-button:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.threshold-icon {
+    color: #3c4b64;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card-loader {
+    display: flex;
+    align-items: center;
+}
+
+.refresh-button {
+    padding: 5px 15px !important;
+    height: 42px !important;
+    background-color: #3c4b64 !important;
+    color: white !important;
+    margin-right: 12px !important;
+}
+
+.refresh-icon {
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin-right: 10px;
+}
+
+.restart-button {
+    padding: 5px 15px !important;
+    height: 42px !important;
+    background-color: #3c4b64 !important;
+    margin-right: 12px !important;
+}
+
+.restart-icon {
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.MuiButton-startIcon {
+    margin: 0 !important;
+}
+
+.chart-container {
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.stats-and-chart-container {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.historical-data-title {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.info-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.time-header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}

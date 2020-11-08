@@ -1,0 +1,75 @@
+.line-chart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.chart-actions {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+
+.line-chart__stats {
+    margin-left: 24px;
+    margin-bottom: 12px;
+    min-width: fit-content;
+    width: 100% !important;
+}
+
+.line-chart__filter {
+    margin-left: 24px;
+    min-width: fit-content;
+    width: 100% !important;
+}
+
+.line-chart__stats-content {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.line-chart__stats-title {
+    text-align: center !important;
+}
+
+.line-chart__filter-title {
+    text-align: center !important;
+    margin-bottom: 10px;
+}
+
+.date-filter-container__start {
+    margin-bottom: 10px !important;
+}
+
+.date-filter-container__end {
+    margin-bottom: 10px !important;
+}
+
+.filter-button {
+    background-color: #3c4b64 !important;
+    color: white !important;
+}
+
+.line-chart__close {
+    color: #3c4b64 !important;
+    position: absolute !important;
+    top: 20px;
+    right: 0;
+}
+
+.tooltip-time, .tooltip-value {
+    font-weight: bold;
+}
+
+.value-expired {
+    font-weight: bold !important;
+    color: rgba(255,0,0, 0.7) !important;
+}
