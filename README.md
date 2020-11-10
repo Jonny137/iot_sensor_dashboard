@@ -11,7 +11,7 @@
      alt="Markdown Heroku icon"
      height="50px"
 />&nbsp;&nbsp;
-<img src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png"
+<img src="https://g.foolcdn.com/art/companylogos/mark/MDB.png"
      alt="Markdown Mongo icon"
      height="50px"
 />
