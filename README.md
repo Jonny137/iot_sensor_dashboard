@@ -10,6 +10,10 @@
 <img src="https://cdn.iconscout.com/icon/free/png-256/heroku-5-569467.png"
      alt="Markdown Heroku icon"
      height="50px"
+/>&nbsp;&nbsp;
+<img src="https://www.brandeps.com/logo-download/M/MongoDB-logo-vector-01.svg"
+     alt="Markdown Mongo icon"
+     height="50px"
 />
 
 ### Introduction
