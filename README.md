@@ -11,7 +11,7 @@
      alt="Markdown Heroku icon"
      height="50px"
 />&nbsp;&nbsp;
-<img src="https://www.brandeps.com/logo-download/M/MongoDB-logo-vector-01.svg"
+<img src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Emblem.jpg"
      alt="Markdown Mongo icon"
      height="50px"
 />
