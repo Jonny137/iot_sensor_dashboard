@@ -10,7 +10,7 @@
 <img src="https://cdn.iconscout.com/icon/free/png-256/heroku-5-569467.png"
      alt="Markdown Heroku icon"
      height="50px"
-/>&nbsp;&nbsp;
+/>
 <img src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Emblem.jpg"
      alt="Markdown Mongo icon"
      height="50px"
