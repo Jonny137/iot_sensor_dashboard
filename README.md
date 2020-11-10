@@ -10,8 +10,8 @@
 <img src="https://cdn.iconscout.com/icon/free/png-256/heroku-5-569467.png"
      alt="Markdown Heroku icon"
      height="50px"
-/>
-<img src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Emblem.jpg"
+/>&nbsp;&nbsp;
+<img src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png"
      alt="Markdown Mongo icon"
      height="50px"
 />
